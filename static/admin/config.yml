@@ -30,6 +30,7 @@ collections:
             name: "listings" 
             widget: "list" 
             fields:
+              - {label: "Template Key", name: "templateKey", widget: "hidden", default: "listings-page"}
               - {label: Rent, name: rent, widget: number} 
               - {label: Utilities, name: utilities, widget: select, options: ["INCLUSIVE", "WATER/ELETRIC/GAS", "ELETRIC/WATER", "ELETRIC"]} 
               - {label: Availability, name: availability, widget: datetime}
